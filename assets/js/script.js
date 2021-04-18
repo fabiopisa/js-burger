@@ -17,7 +17,7 @@ buttonStart.addEventListener('click', function(){
   var nomeIserito = burgerName.value.trim();
 
   // verifico la presenza del nome
-  if(burgerName.length === 0){
+  if(nomeIserito.length === 0){
     alert("ATTENZIONE! Inserisci il nome del burger")
   }else{
     //sommo gli elementi checked
