@@ -55,3 +55,59 @@ buttonStart.addEventListener('click', function(){
 function writePrice(value, target){
   target.innerHTML = value.toFixed(2);
 }
+
+//SECONDO TENTATIVO
+//REFERENZE
+/* var nameBurger = document.getElementById('name');
+var ingedientsList = document.getElementsByClassName("ingredient-checkbox");
+var coupon = document.getElementById('coupon');
+var burgerPrice = document.getElementById('price');
+var buttonStart = document.getElementById('button');
+ */
+//SETTINGS
+/* var arrcoupon = ['sconto2021', 'sconto-bool'];
+var defaultPrice = 50;
+var disount = 0.3; */
+
+/* writePrice(defaultPrice, burgerPrice);
+ */
+//EVENTS
+
+/* buttonStart.addEventListener('click', function(){
+
+  var nomeInsert = nameBurger.value.trim();
+  if(nomeInsert.length === 0){
+    alert("ATTENZIONE! Inserire nome panino")
+  }else{
+
+    var ingredientsPrice = 0;
+
+    for(var i=0; i<ingedientsList.length; i++){
+      var ingredient = ingredientsList[i];
+      if(ingredient.checked === true){
+        ingredientsPrice += parseInt(ingredient.value);
+      }
+    }
+
+    var totalPrice = defaultPrice + ingredientsPrice
+
+    if(arrcoupon.includes(coupon.value)){
+     totalPrice*= (1 - disount);
+    }
+
+    writePrice(totalPrice, nameBurger);
+
+  }
+
+  
+
+
+
+
+}); */
+
+//FUNCTIONS
+
+/* function writePrice(value, target){
+  target.innerHTML = value.toFixed(2);
+} */
